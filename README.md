@@ -5,6 +5,9 @@ Zahaid Mansaray
 
 ![image](https://github.com/user-attachments/assets/b9f95412-77ec-4690-a03a-6fdf1d898705)
 
+GitHub Link: https://github.com/Fr05teee/IST-256-Product-Order
+
+GitHub Pages: https://fr05teee.github.io/IST-256-Product-Order/
 
 REFERENCES:
 
