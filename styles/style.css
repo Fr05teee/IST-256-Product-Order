@@ -61,3 +61,71 @@ body {
 .submit-button:hover {
     background-color: #32CD32; /* Brighter green on hover */
 }
+/* Sidebar Ads */
+.funny-ads-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 200px;
+    z-index: 1000;
+}
+
+.funny-ad {
+    background: yellow;
+    border: 3px solid red;
+    padding: 10px;
+    text-align: center;
+    font-family: "Comic Sans MS", sans-serif;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.8);
+    animation: blink 1s infinite alternate;
+}
+
+.funny-ad img {
+    width: 100%;
+    height: auto;
+}
+
+.funny-ad button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.funny-ad button:hover {
+    background: limegreen;
+}
+
+/* Bottom Ads */
+.funny-ads-bottom {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.fake-ad {
+    display: inline-block;
+    padding: 10px;
+    background: red;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: yellow;
+    border: 3px solid white;
+    text-shadow: 2px 2px 5px black;
+    animation: blink 0.8s infinite alternate;
+    cursor: pointer;
+}
+
+/* Blinking animation */
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
