@@ -30,7 +30,12 @@ body {
     margin-bottom: 15px;
     text-align: center;
 }
-
+.wrapper .game-card{
+    box-sizing: border-box;
+    width: calc(50% - 24px);
+    float: left;
+    margin: 12px;
+}
 .game-card {
     background-color: #3B1846; /* Slightly lighter purple */
     padding: 15px;
