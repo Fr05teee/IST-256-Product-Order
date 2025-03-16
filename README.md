@@ -10,3 +10,5 @@ REFERENCES:
 https://stackoverflow.com/questions/18105152/alternative-for-blink
 
 https://stackoverflow.com/questions/42692398/align-two-responsive-divs-side-by-side
+
+https://www.youtube.com/watch?v=g63sz-PlTH8
